@@ -1,0 +1,19 @@
+Mysql Location
+/Applications/MAMP/Library/bin
+
+Quaries
+create table tb_test(
+	id varchar(200) NOT NULL,
+	lectureName varchar(200) NOT NULL,
+	lectureProf varchar(200) NOT NULL,
+	lectureTime varchar(200) NOT NULL,
+	lectureRoom1 varchar(200) NOT NULL,
+	lectureRoom2 varchar(200) NOT NULL,
+	lectureMajor varchar(200) NOT NULL, 
+	lectureGoods smallint(2) NOT NULL,
+	lectureBads smallint(2) NOT NULL,
+	lectureComments smallint(2) NOT NULL,
+	PRIMARY KEY (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+delete from tb_test
